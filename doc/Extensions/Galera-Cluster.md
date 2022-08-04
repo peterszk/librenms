@@ -30,7 +30,7 @@ sudo apt-get install mariadb-server mariadb-client galera-4
 
 Create a new file /etc/mysql/conf.d/galera.conf on each node
 
-```galera.conf
+```galera.cnf
 [mysqld]
 binlog_format=ROW
 default-storage-engine=innodb
